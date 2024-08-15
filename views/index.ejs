@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <a class="button" href="https://id.twitch.tv/oauth2/authorize?response_type=<%= responseType %>&client_id=<%= clientId %>&redirect_uri=<%= redirectUri %>&scope=<%= scopeSend %>&state=<%= stateSend %>">Pick a Follower</a>
+    </div>
+</body>
+</html>

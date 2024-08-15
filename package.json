@@ -1,0 +1,21 @@
+{
+  "name": "twitch-app-node",
+  "version": "1.0.0",
+  "description": "An app that connects to switch, retreives all the channels followed by a user, picks a random one from it and displays it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitch",
+    "twitch-app",
+    "twitch-followers-app"
+  ],
+  "author": "thomas",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
